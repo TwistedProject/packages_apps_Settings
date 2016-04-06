@@ -56,6 +56,7 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
     private static final String KEY_DOZE_PULSE_VISIBLE = "doze_pulse_visible";
     private static final String KEY_DOZE_PULSE_OUT = "doze_pulse_out";
     private static final String KEY_DOZE_PULSE_PICKUP = "doze_pulse_on_pickup";
+    private static final String KEY_DOZE_PULSE_NOTIF = "doze_pulse_on_notifications";
     private static final String KEY_DOZE_BRIGHTNESS_LEVEL = "doze_brightness_level";
 
     private static final String SYSTEMUI_METADATA_NAME = "com.android.systemui";
@@ -65,6 +66,7 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
     private ListPreference mDozePulseVisible;
     private ListPreference mDozePulseOut;
     private SystemSettingSwitchPreference mDozeTriggerPickup;
+    private SystemSettingSwitchPreference mDozeTriggerNotif;
 
     private DozeBrightnessDialog mDozeBrightnessDialog;
     private Preference mDozeBrightness;
@@ -95,8 +97,10 @@ public class AmbientSettings extends SettingsPreferenceFragment implements
 
         if (isPickupSensorUsedByDefault(activity)) {
             mDozeTriggerPickup = (SystemSettingSwitchPreference) findPreference(KEY_DOZE_PULSE_PICKUP);
+            mDozeTriggerNotif = (SystemSettingSwitchPreference) findPreference(KEY_DOZE_PULSE_NOTIF);
         } else {
             removePreference(KEY_DOZE_PULSE_PICKUP);
+            removePreference(KEY_DOZE_PULSE_NOTIF);
         }
         updateDozeOptions();
 
