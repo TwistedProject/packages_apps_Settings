@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-     Copyright (C) 2015 Benzo Rom
+<!-- Copyright (C) 2015 The Pure Nexus Project
 
      Licensed under the Apache License, Version 2.0 (the "License");
      you may not use this file except in compliance with the License.
@@ -14,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- notification light pulse -->
     <string-array name="notification_pulse_length_entries" translatable="false">
@@ -61,6 +60,19 @@
         <item>0</item>
         <item>1</item>
         <item>2</item>
+    </string-array>
+
+    <!-- Dashboard columns -->
+    <string-array name="dashboard_columns_entries" translatable="false">
+        <item>@string/dashboard_columns_default</item>
+        <item>@string/dashboard_columns_two</item>
+        <item>@string/dashboard_columns_three</item>
+    </string-array>
+
+    <string-array name="dashboard_columns_values" translatable="false">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
     </string-array>
 
 </resources>

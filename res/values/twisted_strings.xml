@@ -67,5 +67,13 @@
     <string name="display_rotation_90_title">90 degrees</string>
     <string name="display_rotation_180_title">180 degrees</string>
     <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Dashboard columns -->
+    <string name="dashboard_columns_title">Dashboard Columns</string>
+    <string name="dashboard_columns_summary">Change the number of columns displayed in the dashboard</string>
+    <string name="dashboard_columns_dialog_title">Select dashboard columns</string>
+    <string name="dashboard_columns_default">One (default)</string>
+    <string name="dashboard_columns_two">Two</string>
+    <string name="dashboard_columns_three">Three</string>
 </resources>
 
