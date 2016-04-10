@@ -85,4 +85,9 @@
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
 
+        <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_crdroid_title"
+                android:fragment="com.android.settings.crdroid.Changelog" />
+
 </PreferenceScreen>

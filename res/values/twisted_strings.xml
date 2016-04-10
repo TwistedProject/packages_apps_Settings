@@ -90,10 +90,15 @@
     <string name="dashboard_tileview_dividers_title">Dashboard dividers</string>
     <string name="dashboard_tileview_dividers_summary">Hide dashboard tile dividers</string>
 
-<!-- Sound & Notification Settings -->
+    <!-- Sound & Notification Settings -->
     <!-- Linked / unlinked notification volume -->
     <string name="link_volume_option_title">Link ring and notification volume</string>
     <string name="notification_volume_option_title">Notification volume</string>
     <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+
+    <!-- Changelog -->
+    <string name="changelog_crdroid_title">Changelog</string>
+    <string name="changelog_crdroid_error">Unable to load changelog</string>
+
 </resources>
 
