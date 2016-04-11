@@ -18,8 +18,7 @@
         android:title="@string/about_settings">
 
 <PreferenceScreen
-android:layout="@layout/twisted_preference_screen"
-android:icon="@drawable/ic_twisted_ota"
+android:key="system_update_settings"
 android:title="@string/twisted_ota_title"
 android:summary="@string/twisted_ota_summary" >
 <intent
