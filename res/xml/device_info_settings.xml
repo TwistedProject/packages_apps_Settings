@@ -36,6 +36,11 @@ android:targetClass="com.fusionjack.slimota.MainActivity" />
                     android:targetClass="com.android.settings.deviceinfo.Status" />
         </PreferenceScreen>
 
+        <!-- Changelog -->
+        <PreferenceScreen android:key="changelog"
+                android:title="@string/changelog_crdroid_title"
+                android:fragment="com.android.settings.crdroid.Changelog" />
+
         <PreferenceScreen
                 android:key="regulatory_info"
                 android:title="@string/regulatory_information">
@@ -94,10 +99,5 @@ android:targetClass="com.fusionjack.slimota.MainActivity" />
                 style="?android:preferenceInformationStyle"
                 android:title="@string/selinux_status"
                 android:summary="@string/selinux_status_enforcing"/>
-
-        <!-- Changelog -->
-        <PreferenceScreen android:key="changelog"
-                android:title="@string/changelog_crdroid_title"
-                android:fragment="com.android.settings.crdroid.Changelog" />
 
 </PreferenceScreen>
