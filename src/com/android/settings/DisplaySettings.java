@@ -106,9 +106,6 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
     private static final int DLG_GLOBAL_CHANGE_WARNING = 1;
 
     private ListPreference mLcdDensityPreference;
-    private FontDialogPreference mFontSizePref;
-    
-    private static final String ROTATION_LOCKSCREEN = "Lockscreen";
     private WarnedListPreference mFontSizePref;
 
     private final Configuration mCurConfig = new Configuration();
