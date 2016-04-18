@@ -56,6 +56,7 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
 
     private static final String PREF_ENABLE = "clock_style";
     private static final String PREF_AM_PM_STYLE = "status_bar_am_pm";
+    private static final String PREF_SECONDS = "statusbar_clock_seconds";
     private static final String PREF_COLOR_PICKER = "clock_color";
     private static final String PREF_CLOCK_DATE_DISPLAY = "clock_date_display";
     private static final String PREF_CLOCK_DATE_STYLE = "clock_date_style";
@@ -79,6 +80,7 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
     private ListPreference mClockDatePosition;
     private ListPreference mClockDateFormat;
     private SwitchPreference mStatusBarClock;
+    private SwitchPreference mStatusBarClockSeconds;
 
     private boolean mCheckPreferences;
 
@@ -176,6 +178,12 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
                 Settings.System.STATUS_BAR_CLOCK, 1) == 1));
         mStatusBarClock.setOnPreferenceChangeListener(this);
 
+        mStatusBarClockSeconds = (SwitchPreference) prefSet.findPreference(PREF_SECONDS);
+        mStatusBarClockSeconds.setChecked((Settings.System.getInt(
+                getActivity().getApplicationContext().getContentResolver(),
+                Settings.System.STATUSBAR_CLOCK_SECONDS, 0) == 1));
+        mStatusBarClockSeconds.setOnPreferenceChangeListener(this);
+
         boolean mClockDateToggle = Settings.System.getInt(getActivity().getContentResolver(),
                     Settings.System.STATUSBAR_CLOCK_DATE_DISPLAY, 0) != 0;
         if (!mClockDateToggle) {
@@ -252,6 +260,11 @@ public class StatusBarClockStyle extends SettingsPreferenceFragment
         } else if (preference == mStatusBarClock) {
             Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
                     Settings.System.STATUS_BAR_CLOCK,
+                    (Boolean) newValue ? 1 : 0);
+            return true;
+        } else if (preference == mStatusBarClockSeconds) {
+            Settings.System.putInt(getActivity().getApplicationContext().getContentResolver(),
+                    Settings.System.STATUSBAR_CLOCK_SECONDS,
                     (Boolean) newValue ? 1 : 0);
             return true;
         } else if (preference == mClockDateFormat) {
