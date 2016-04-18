@@ -62,6 +62,13 @@
                 android:summary="@string/swap_volume_buttons_summary"
                 android:defaultValue = "true" />
 
+        <!-- Skip tracks on longpress volume buttons -->
+        <com.android.settings.chroma.SystemSettingSwitchPreference
+            android:key="volbtn_music_controls"
+            android:title="@string/volbtn_music_controls_title"
+            android:summary="@string/volbtn_music_controls_summary"
+            android:defaultValue="false" />
+
         <!-- Also vibrate for calls -->
         <SwitchPreference
                 android:key="vibrate_when_ringing"
