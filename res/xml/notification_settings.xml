@@ -55,6 +55,13 @@
                 android:icon="@*android:drawable/ic_audio_notification_new"
                 android:title="@string/notification_volume_option_title" />
 
+        <!-- Reorient volume rockers with screen rotation -->
+        <com.android.settings.chroma.SystemSettingSwitchPreference
+                android:key="swap_volume_keys_on_rotation"
+                android:title="@string/swap_volume_buttons_title"
+                android:summary="@string/swap_volume_buttons_summary"
+                android:defaultValue = "true" />
+
         <!-- Also vibrate for calls -->
         <SwitchPreference
                 android:key="vibrate_when_ringing"
