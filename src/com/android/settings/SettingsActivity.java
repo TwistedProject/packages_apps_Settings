@@ -110,8 +110,6 @@ import com.android.settings.notification.ZenModeExternalRuleSettings;
 import com.android.settings.notification.ZenModePrioritySettings;
 import com.android.settings.notification.ZenModeSettings;
 import com.android.settings.notification.ZenModeScheduleRuleSettings;
-import com.android.settings.notificationlight.BatteryLightSettings;
-import com.android.settings.notificationlight.NotificationLightSettings;
 import com.android.settings.print.PrintJobSettingsFragment;
 import com.android.settings.print.PrintSettingsFragment;
 import com.android.settings.search.DynamicIndexableContentMonitor;
@@ -356,8 +354,6 @@ public class SettingsActivity extends Activity
             ProcessStatsSummary.class.getName(),
             DrawOverlayDetails.class.getName(),
             WriteSettingsDetails.class.getName(),
-            BatteryLightSettings.class.getName(),
-            NotificationLightSettings.class.getName(),
     };
 
 
