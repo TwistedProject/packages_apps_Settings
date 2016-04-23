@@ -75,6 +75,12 @@
                 android:title="@string/vibrate_when_ringing_title"
                 android:persistent="false" />
 
+        <com.android.settings.preference.SystemSettingSwitchPreference
+               android:key="volume_down_zen"
+               android:title="@string/volbtn_down_zen_title"
+               android:summary="@string/volbtn_down_zen_summary"
+              android:defaultValue="false"/>
+
         <!-- Interruptions -->
         <PreferenceScreen
                 android:key="zen_mode"
