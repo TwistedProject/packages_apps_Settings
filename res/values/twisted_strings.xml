@@ -266,5 +266,9 @@
     <string name="ime_switcher_notify">Selector notification</string>
     <string name="ime_switcher_notify_summary">Display input method selector notification</string>
 
+    <!-- tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Tap statusbar to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap status bar to put device to sleep</string>
+
 </resources>
 
