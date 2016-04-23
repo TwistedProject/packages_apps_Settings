@@ -277,5 +277,9 @@
     <string name="double_tap_sleep_nav_bar_title">Tap navigation bar to sleep</string>
     <string name="double_tap_sleep_nav_bar_summary">Double tap navigation bar to put device to sleep</string>
 
+    <!-- Show notification count -->
+    <string name="status_bar_notif_count_title">Show notification count</string>
+    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+
 </resources>
 
