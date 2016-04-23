@@ -68,12 +68,6 @@
                 android:summary="@string/camera_gesture_desc"
                 android:persistent="false" />
 
-        <SwitchPreference
-                android:key="camera_double_tap_power_gesture"
-                android:title="@string/camera_double_tap_power_gesture_title"
-                android:summary="@string/camera_double_tap_power_gesture_desc"
-                android:persistent="false" />
-
         <PreferenceScreen
                 android:key="screensaver"
                 android:title="@string/screensaver_settings_title"
@@ -94,6 +88,18 @@
                 android:title="@string/tap_to_wake"
                 android:summary="@string/tap_to_wake_summary"
                 android:persistent="false" />
+               
+        <SwitchPreference
+                android:key="camera_double_tap_power_gesture"
+                android:title="@string/camera_double_tap_power_gesture_title"
+                android:summary="@string/camera_double_tap_power_gesture_desc"
+                android:persistent="false" />
+ 
+        <com.android.settings.chroma.SystemSettingSwitchPreference
+                android:key="double_tap_sleep_gesture"
+                android:title="@string/double_tap_to_sleep_title"
+                android:summary="@string/double_tap_to_sleep_summary"
+                android:defaultValue="false" />
 
         <com.android.settings.WarnedListPreference
                 android:key="font_size"
