@@ -1,0 +1,469 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Copyright (C) 2007 The Android Open Source Project
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+          http://www.apache.org/licenses/LICENSE-2.0
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <!-- Custom menus -->
+    <string name="custom_title">Custom settings</string>
+    <string name="custom_settings_title">System UI</string>
+    <string name="smartbar_interface">SmartBar</string>
+    <string name="icon_pack_picker_dialog_title">Icon packs</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_battery_title">Battery</string>
+    <string name="status_bar_clock_title">Clock and date style</string>
+    <string name="status_bar_misc_title">Miscellaneous</string>
+
+    <!-- Expanded desktop -->
+    <string name="expanded_desktop_category">Expanded Desktop</string>
+    <string name="expanded_hide_nothing">Hide nothing</string>
+    <string name="expanded_hide_status">Hide status bar</string>
+    <string name="expanded_hide_navigation">Hide navigation bar</string>
+    <string name="expanded_hide_both">Hide both</string>
+    <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
+    <string name="expanded_desktop_state">Expanded state</string>
+    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="expanded_user_configurable">User configurable</string>
+
+    <!-- Color Picker -->
+    <string name="dialog_color_picker">Color Picker</string>
+    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="arrow_right">→</string>
+    <string name="arrow_down">↓</string>
+    <string name="hex">Hex:</string>
+    <string name="hex_hint">#ff000000</string>
+    <string name="set">Set</string>
+    <string name="color_default">Default</string>
+
+    <!-- Display : Rotation -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_disabled">Disabled</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Battery Bar -->
+    <string name="battery_bar_title">Battery bar</string>
+    <string name="battery_bar">Battery bar location</string>
+    <string name="battery_bar_color">Battery bar color</string>
+    <string name="battery_bar_cat">Battery bar style</string>
+    <string name="battery_bar_style_title">Battery bar alignment</string>
+    <string name="battery_bar_thickness_title">Battery bar thickness</string>
+    <string name="battery_bar_animate_title">Charging animation</string>
+    <string name="battery_bar_animate_summary">The charging animation may result in a poor user experience. Enable at your own discretion!</string>
+
+    <!-- Shortcut Picker -->
+    <string name="picker_activities">Activities</string>
+    <string name="profile_applist_title">Applications</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="select_custom_app_title">Select custom app</string>
+
+    <!-- Icon pick helper -->
+    <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
+
+    <!-- Navigation Bar -->
+    <string name="navbar_interface_title">Interface</string>
+    <string name="navbar_size">Bar size</string>
+    <string name="navbar_mode">Navigation mode</string>
+    <string name="navbar_visibility">Enable navigation bar</string>
+    <string name="navigationbar_settings_title">Navigation</string>
+    <string name="aosp_navigation_bar">Navigation bar</string>
+    <string name="aosp_navigation_bar_settings">Navigation bar settings</string>
+    <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
+    <string name="navbar_general_title">Advanced</string>
+    <string name="navigation_bar_left_title">Left-handed mode</string>
+    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+    <string name="info_pref_note_title">Note</string>
+
+    <!-- Actions dialog and default task values set in ActionPreference xml-->
+    <string name="choose_action_title">Choose action</string>
+    <string name="action_entry_default_action">Default settings</string>
+    <string name="action_entry_select_app">Select application</string>
+    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="action_value_default_action">action_default</string>
+    <string name="action_value_select_app">action_app</string>
+    <string name="action_value_custom_action">action_custom</string>
+
+    <string name="action_value_default_action">default</string>
+    <string name="action_value_select_app">app</string>
+    <string name="action_value_back">task_back</string>
+    <string name="action_value_home">task_home</string>
+    <string name="action_value_search_assist">task_assist</string>
+    <string name="action_value_recent_apps">task_recents</string>
+    <string name="action_value_voice_search">task_voice_search</string>
+    <string name="action_value_menu">task_menu</string>
+
+    <!-- Fling -->
+    <string name="fling_settings">Fling settings</string>
+    <string name="fling_interface">Fling</string>
+    <string name="fling_enable_title">Enable Fling</string>
+    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
+    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
+    <string name="fling_def_summary">No action set</string>
+    <string name="fling_swipe_actions">Swipe gestures</string>
+    <string name="fling_tap_actions">Tap gestures</string>
+    <string name="fling_short_swipe_right">Right short swipe</string>
+    <string name="fling_short_swipe_left">Left short swipe</string>
+    <string name="fling_long_swipe_right">Right long swipe</string>
+    <string name="fling_long_swipe_left">Left long swipe</string>
+    <string name="fling_right_up_swipe">Right side swipe up</string>
+    <string name="fling_left_up_swipe">Left side swipe up</string>
+    <string name="fling_single_tap">Single tap right</string>
+    <string name="fling_double_tap">Double tap right</string>
+    <string name="fling_long_press">Long press right</string>
+    <string name="fling_single_left_tap">Single tap left</string>
+    <string name="fling_double_left_tap">Double tap left</string>
+    <string name="fling_long_left_press">Long press left</string>
+    <string name="long_swipe_portrait_title">Portrait</string>
+    <string name="long_swipe_landscape_title">Landscape</string>
+    <string name="right_swipe_title">Right swipe</string>
+    <string name="left_swipe_title">Left swipe</string>
+    <string name="up_swipe_title">Up swipe</string>
+    <string name="down_swipe_title">Down swipe</string>
+    <string name="long_swipe_reset">Reset</string>
+    <string name="fling_advanced">Advanced</string>
+    <string name="fling_long_swipe_title">Long swipe threshold</string>
+    <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
+    <string name="fling_trails_enable_title">Enable gesture trails</string>
+    <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
+    <string name="fling_trails_color_title">Trail color</string>
+    <string name="fling_appearance">Appearance</string>
+    <string name="fling_show_logo_title">Show Fling logo</string>
+    <string name="fling_animate_logo_title">Animate logo</string>
+    <string name="fling_animate_logo_summary">Logo animates on touch events</string>
+    <string name="fling_logo_color">Logo color</string>
+    <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
+    <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
+    <string name="fling_show_ripple_title">Show ripple</string>
+    <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
+    <string name="fling_ripple_color">Ripple color</string>
+    <string name="fling_longpress_timeout_label_left">Less delay</string>
+    <string name="fling_longpress_timeout_label_right">More delay</string>
+    <string name="fling_longpress_title">Long press delay</string>
+    <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
+
+    <!-- Navbar height -->
+    <string name="navigation_bar_size_title">Bar size</string>
+    <string name="portrait_title">Portrait height</string>
+    <string name="land_vert_title">Landscape width</string>
+    <string name="land_hor_title">Landscape height</string>
+    <string name="positive_done">Done</string>
+
+    <!-- Pulse navigation bar music visualizer -->
+    <string name="pulse_help_policy_notice_title">About Pulse</string>
+    <string name="pulse_help_policy_notice_summary">Pulse is brilliant equalizer bar style audio visualization on the navigation bar when music plays. Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Navigation bar audio visualization</string>
+    <string name="pulse_advanced_category">Advanced</string>
+    <string name="fling_show_pulse_title">Show Pulse</string>
+    <string name="fling_show_pulse_summary">Audio visualization on the navigation bar</string>
+    <string name="fling_pulse_color">Pulse color</string>
+    <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
+    <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
+
+    <!-- SmartBar -->
+    <string name="smartbar_category">Smartbar</string>
+    <string name="smartbar_settings_title">Smartbar settings</string>
+    <string name="smartbar_editor_title">Toggle button editor</string>
+    <string name="smartbar_editor_summary">Medium press and drag to change position. Long press to show edit menu. Button position may be changed while menu is showing.</string>
+    <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
+    <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
+    <string name="smartbar_right">Right</string>
+    <string name="smartbar_left">Left</string>
+    <string name="smartbar_button_animation_title">Button touch animation</string>
+    <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
+    <string name="smartbar_button_animation_ripple">Ripple</string>
+    <string name="smartbar_button_animation_spring">Spring</string>
+    <string name="smartbar_factory_reset_title">Reset to stock</string>
+    <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
+    <string name="reset">Reset</string>
+    <string name="smartbar_ime_action_title">Input method actions</string>
+    <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing</string>
+    <string name="smartbar_ime_action_none">None</string>
+    <string name="smartbar_ime_action_arrows">Input arrows</string>
+    <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
+
+    <!-- Status bar - Clock -->
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_hidden">Hidden</string>
+
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_am_pm_normal">Normal</string>
+    <string name="status_bar_am_pm_small">Small</string>
+    <string name="status_bar_am_pm_hidden">Hidden (default)</string>
+
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_display_none">Don\'t show</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+
+    <!-- Status bar - Battery -->
+    <string name="status_bar_battery_style_title">Battery status style</string>
+    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
+    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
+    <string name="status_bar_battery_style_circle">Circle</string>
+    <string name="status_bar_battery_style_text">Text</string>
+    <string name="status_bar_battery_style_hidden">Hidden</string>
+
+    <!-- Status bar - Battery percentage -->
+    <string name="status_bar_battery_percentage_title">Battery percentage</string>
+    <string name="status_bar_battery_percentage_default">Hidden</string>
+    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
+    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
+
+    <!-- Status bar quick qs pulldown -->
+    <string name="status_bar_quick_qs_pulldown_title">Quick pulldown</string>
+    <string name="status_bar_quick_qs_pulldown_summary">Right edge of the status bar pulls down Quick Settings</string>
+
+    <!-- SystemUI tuner -->
+    <string name="quick_settings_title">Quick Settings</string>
+    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+
+   <!-- Advanced storage settings -->
+   <string name="storage_advanced_titlebar">Advanced Storage</string>
+   <string name="storage_menu_advanced">Advanced</string>
+
+   <!-- USB data automatic unlock -->
+   <string name="usb_data_auto_unlock_title">Unlock USB data</string>
+   <string name="usb_data_auto_unlock_summary">Allow unlocked data access to your phone\'s storage through USB (MTP, PTP)</string>
+   <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
+
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">Bar width</string>
+    <string name="pulse_dimen0">Default</string>
+    <string name="pulse_dimen1">7dp</string>
+    <string name="pulse_dimen2">8dp</string>
+    <string name="pulse_dimen3">9dp</string>
+    <string name="pulse_dimen4">10dp</string>
+    <string name="pulse_dimen5">11dp</string>
+    <string name="pulse_dimen6">12dp</string>
+    <string name="pulse_dimen7">13dp</string>
+    <string name="pulse_dimen8">15dp</string>
+    <string name="pulse_dimen9">16dp</string>
+    <string name="pulse_dimen10">17dp</string>
+    <string name="pulse_dimen11">18dp</string>
+    <string name="pulse_dimen12">19dp</string>
+    <string name="pulse_dimen13">20dp</string>
+    <string name="pulse_dimen14">21dp</string>
+    <string name="pulse_dimen15">22dp</string>
+    <string name="pulse_dimen16">23dp</string>
+    <string name="pulse_dimen17">24dp</string>
+    <string name="pulse_dimen18">25dp</string>
+    <string name="pulse_dimen19">26dp</string>
+
+    <string name="pulse_custom_div">Bar spacing</string>
+    <string name="default_div">Default</string>
+    <string name="pulse_block_category">Default</string>
+    <string name="pulse_block_category_title">Block size</string>
+    <string name="pulse_aggression">Power</string>
+    <string name="div1">12</string>
+    <string name="div2">14</string>
+    <string name="div3">18</string>
+    <string name="div4">20</string>
+    <string name="div5">22</string>
+    <string name="div6">24</string>
+    <string name="div7">26</string>
+    <string name="div8">28</string>
+
+    <string name="default_fill">Default</string>
+    <string name="default_pulse_empty">Default</string>
+    <string name="pulse_filled_block_size">Block size</string>
+    <string name="pulse_empty_block_size">Block spacing</string>
+    <string name="pulse_fill1">5dp</string>
+    <string name="pulse_fill2">6dp</string>
+    <string name="pulse_fill3">7dp</string>
+    <string name="pulse_fill4">8dp</string>
+    <string name="pulse_empty1">2dp</string>
+    <string name="pulse_empty2">3dp</string>
+    <string name="pulse_empty3">4dp</string>
+    <string name="pulse_empty4">0dp</string>
+
+    <string name="factor0">Normal</string>
+    <string name="factor1">Relaxed</string>
+    <string name="factor2">Slow</string>
+    <string name="factor3">Hyper</string>
+    <string name="factor4">Insane</string>
+    <string name="pulse_custom_fudge_factor">Visualizer sanity level</string>
+
+    <!-- Notifications frequency --> 
+    <string name="notifications_frequency_limit_title">Limit notification frequency</string>
+    <string name="notifications_frequency_limit_never">Never</string>
+    <string name="notifications_frequency_limit_setting">"Every %1$s seconds"</string>
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">Build date</string>
+    <string name="build_date_default">2015-10-05-0000</string>
+
+    <!-- Dev Options Enabled by Default -->
+    <string name="show_dev_already_enabled">No Need, Development settings are enabled by default.</string>
+
+    <!-- Linked / unlinked notification volume -->
+    <string name="link_volume_option_title">Link ring and notification volume</string>
+    <string name="notification_volume_option_title">Notification volume</string>
+    <string name="ring_notification_volume_option_title">Ring and notification volume</string>
+
+    <!-- Status bar - Network traffic -->
+    <string name="network_traffic_options_title">Network traffic options</string>
+
+    <!-- Network traffic -->
+    <string name="network_traffic_title">Network traffic</string>
+    <string name="show_network_traffic_state">Status bar traffic monitor</string>
+    <string name="network_traffic_summary">Enable various network traffic options in statusbar</string>
+    <string name="show_network_traffic_unit">Display unit</string>
+    <string name="show_network_traffic_frequency">Update interval</string>
+    <string name="show_network_traffic_disable">Disabled</string>
+    <string name="show_network_traffic_up">Outgoing</string>
+    <string name="show_network_traffic_down">Incoming</string>
+    <string name="show_network_traffic_all">Outgoing and incoming</string>
+    <string name="show_network_traffic_bit">Bits per second</string>
+    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="show_network_traffic_500">500 ms</string>
+    <string name="show_network_traffic_1000">1000 ms</string>
+    <string name="show_network_traffic_1500">1500 ms</string>
+    <string name="show_network_traffic_2000">2000 ms</string>
+    <string name="network_traffic_autohide">Auto hide</string>
+    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
+    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Wake up and sleep options</string>
+    <string name="wakeup_when_plugged_unplugged_title">Wake up on charge</string>
+    <string name="wakeup_when_plugged_unplugged_summary">Wake up device if charger is plugged/unplugged</string>
+
+    <!-- Camera sound switch -->
+    <string name="camera_sounds_title">Camera shutter sound</string>
+
+    <!-- Setting options for LCD density -->
+    <string name="lcd_density">LCD density</string>
+    <string name="lcd_density_summary">%d DPI</string>
+    <string name="lcd_density_default">default</string>
+    <string name="lcd_density_unsupported">Unsupported</string>
+    <string name="lcd_density_restarting_ui">Restarting UI\u2026</string>
+
+    <!-- Notification force expand -->
+    <string name="notification_force_expand_title">Force expanded notifications</string>
+    <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
+
+    <!-- Wakeup section under Display settings -->
+    <string name="wakeup_section_header">Wake up</string>
+    <!-- Volume rocker wake -->
+    <string name="volume_rocker_wake_title">Volume rocker wake</string>
+    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+
+    <!-- Language options - Volume rocker cursor control -->
+    <string name="cursor_section_header">Cursor</string>
+    <string name="volume_key_cursor_control_title">Volume key cursor control</string>
+    <string name="volume_key_cursor_control_off">Disabled</string>
+    <string name="volume_key_cursor_control_on">Volume up/down moves cursor left/right</string>
+    <string name="volume_key_cursor_control_on_reverse">Volume up/down moves cursor right/left</string>
+
+    <!-- Double tap-to-sleep -->
+    <string name="double_tap_to_sleep_title">Tap status bar to sleep</string>
+    <string name="double_tap_to_sleep_summary">Double tap status bar to put device to sleep</string>
+
+    <!-- Hostname setting -->
+    <string name="device_hostname">Device hostname</string>
+
+    <!-- Locksreen Media -->
+    <string name="media_art_title">Media cover art</string>
+    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+
+    <!-- Swap Volume -->
+    <string name="swap_volume_buttons_title">Volume button swap</string>
+    <string name="swap_volume_buttons_summary">Adjust volume buttons action based on current rotation</string>
+
+    <!-- SuperSU -->
+    <string name="supersu_title">SuperSU</string>
+
+    <!--  BitSyko Layers header name -->
+    <string name="bitsyko_layers">Layers</string>
+
+    <!-- BitSyko Layers development settings switch -->
+    <string name="bitsyko_layers_dashboard">Layers manager</string>
+    <string name="bitsyko_layers_dashboard_summary">Show the manager in the Settings dashboard</string>
+
+    <!-- Optional Dashboard Switches -->
+    <string name="dashboard_switches_title">Dashboard Switches</string>
+    <string name="dashboard_switches_off">Switches Off</string>
+    <string name="dashboard_switches_on">Switches On</string>
+    <string name="dashboard_switches_summary">Change the position of the dashboard switches</string>
+    <string name="dashboard_switches_dialog_title">Select switch state</string>
+
+    <!-- Dt2w on doze -->
+    <string name="doze_wakeup_doubletap_title">Double-tap to wake on doze</string>
+    <string name="doze_wakeup_doubletap_summary_on">Require a double-tap to wake the device on a doze pulse screen</string>
+    <string name="doze_wakeup_doubletap_summary_off">Require a simple-tap to wake the device on a doze pulse screen (default)</string>
+
+    <!-- Doze pulse options -->
+    <string name="summary_doze_enabled">Enabled</string>
+    <string name="summary_doze_disabled">Disabled</string>
+    <string name="doze_overwrite_value_title">Overwrite defaults</string>
+    <string name="doze_overwrite_value_summary">Allow override of default values with user config</string>
+    <string name="doze_pulse_title">User configurable settings</string>
+    <string name="doze_pulse_duration_in_title">Fade in</string>
+    <string name="doze_pulse_duration_in_summary"></string>
+    <string name="doze_pulse_duration_visible_title">Visible duration</string>
+    <string name="doze_pulse_duration_visible_summary"></string>
+    <string name="doze_pulse_duration_out_title">Fade out</string>
+    <string name="doze_pulse_duration_out_summary"></string>
+    <string name="doze_trigger_pickup_title">Pick up sensor trigger</string>
+    <string name="doze_trigger_pickup_summary_on">Pulse will be triggered by pick up sensor</string>
+    <string name="doze_trigger_pickup_summary_off">Pick up sensor will not be utilized as a trigger</string>
+    <string name="doze_trigger_notification_title">Notification trigger</string>
+    <string name="doze_trigger_notification_summary_on">Pulse will be triggered by notifications</string>
+    <string name="doze_trigger_notification_summary_off">Notifications will not be utilized as a trigger</string>
+    <string name="doze_brightness_level_title">Brightness level</string>
+    <string name="onehundred_ms">100 ms</string>
+    <string name="twofifty_ms">250 ms</string>
+    <string name="fivehundred_ms_default">500 ms (default)</string>
+    <string name="sevenfifty_ms">750 ms</string>
+    <string name="one_second">1 s</string>
+    <string name="onehalf_second">1.5 s</string>
+    <string name="two_second">2 s</string>
+    <string name="twohalf_second">2.5 s</string>
+    <string name="three_second_default">3 s (default)</string>
+    <string name="threehalf_second">3.5 s</string>
+    <string name="four_second">4 s</string>
+    <string name="fourhalf_second">4.5 s</string>
+    <string name="five_second">5 s</string>
+
+    <!-- Screenshot crop and share -->
+    <string name="screenshot_cat_title">Screenshot Options</string>
+    <string name="screenshot_crop_and_share_title">Crop &amp; share</string>
+    <string name="screenshot_crop_and_share_summary">Show an editor window after taking a screenshot in order to do some operations like cropping, saving or sharing</string>
+    <string name="screenshot_crop_behavior_title">Crop mode</string>
+    <string name="screenshot_crop_behavior_summary">Always use the cropped image inside the cropping area, even if the apply button hasn\'t been pressed</string>
+
+
+</resources>
