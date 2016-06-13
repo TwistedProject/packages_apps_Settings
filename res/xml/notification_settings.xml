@@ -188,6 +188,12 @@
         android:summary="@string/notification_force_expand_summary"
         android:defaultValue="false" />
 
+    <PreferenceScreen
+        android:fragment="com.android.settings.twisted.CarrierLabelSettings"
+        android:key="pure_carrier_label_settings"
+        android:title="@string/carrier_label_settings_title"
+        android:summary="@string/carrier_label_settings_summary" />
+
     </PreferenceCategory>
 
     <PreferenceCategory
