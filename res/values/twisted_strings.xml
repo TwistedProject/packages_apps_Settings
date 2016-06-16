@@ -354,5 +354,8 @@
     <string name="show_carrier_statusbar">Statusbar only</string>
     <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
 
+    <!-- Navbar fragment -->
+    <string name="navbar_settings_title">Navigation bar</string>
+
 </resources>
 
