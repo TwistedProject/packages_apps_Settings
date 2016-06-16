@@ -177,6 +177,11 @@
         android:title="@string/power_menu_title" 
         android:summary="Click to change power button options."/>
 
+        <PreferenceScreen
+            android:fragment="com.android.settings.twisted.NavBarSettings"
+            android:key="pure_navbar_settings"
+            android:title="@string/navbar_settings_title"/>
+
          <PreferenceCategory
              android:key="category_wakeup_options"
              android:title="@string/display_category_wakeup_options_title" >
