@@ -27,7 +27,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.LinearLayout;
-
+import com.android.settings.TwistedSettings;
 import com.android.settings.R;
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -111,7 +111,7 @@ public class NavBarButtonSettings extends Fragment implements View.OnClickListen
         mIntent.putExtra("save", save);
         mActivity.sendBroadcast(mIntent);
         if (on) {
-            PureSettings.lockCurrentOrientation(mActivity);
+            TwistedSettings.lockCurrentOrientation(mActivity);
         } else {
             mActivity.setRequestedOrientation(ActivityInfo.SCREEN_ORIENTATION_UNSPECIFIED);
         }
