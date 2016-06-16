@@ -392,5 +392,20 @@
     <string name="navigation_save_button_text">Save</string>
     <string name="navigation_bar_reset_message">Delete current settings and restore the default layout?</string>
 
+    <!--Embedded Viper4Android-->
+    <string name="viper_settings_title">Equalizer</string>
+    
+    <!-- Lock screen settings -->
+    <string name="lockscreen_settings_title">Wallpaper</string>
+    <string name="lockscreen_wallpaper_title">Lockscreen</string>
+    <string name="lockscreen_wallpaper_set_title">Set wallpaper</string>
+    <string name="lockscreen_wallpaper_clear_title">Clear wallpaper</string>
+    <string name="reset_lockscreen_wallpaper">Lockscreen wallpaper cleared</string>
+
+    <!-- Increasing ring tone volume -->
+    <string name="increasing_ring_volume_option_title">Increasing ring volume</string>
+    <string name="increasing_ring_min_volume_title">Start volume</string>
+    <string name="increasing_ring_ramp_up_time_title">Ramp-up time</string>
+
 </resources>
 
