@@ -2142,11 +2142,11 @@
                 android:label="@string/crypt_keeper_encrypt_title">
             <intent-filter android:priority="1">
                 <action android:name="android.app.action.START_ENCRYPTION" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-                <category android:name="android.intent.category.DEFAULT" /> />
+                <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.CryptKeeperSettings" />
@@ -2318,6 +2318,9 @@
             <meta-data android:name="com.android.settings.PRIMARY_PROFILE_CONTROLLED"
                 android:value="true" />
         </activity>
+
+<!-- BUILD TWEAKS START -->
+        <activity android:name=".twisted.Twisted" />
 
         <!-- Keep compatibility with old shortcuts. -->
         <activity-alias android:name="Settings$SoundSettingsActivity"
@@ -2582,6 +2585,7 @@
             <meta-data android:name="com.android.settings.FRAGMENT_CLASS"
                 android:value="com.android.settings.applications.WriteSettingsDetails" />
         </activity>
-
+        <!-- Twisted Tweaks -->
+        <activity android:name=".twisted.Twisted" />
     </application>
 </manifest>

@@ -6,7 +6,11 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="twisted_version_title">Twisted version</string>
     <string name="twisted_version_default">Unknown</string>
-    
+
+    <!-- DASHBOARD CATEGORY TITLES - START -->				
+<!-- Twisted Settings -->
+<string name="twisted_settings_title">Twisted Tweaks</string>
+
     <!-- General strings -->
     <string name="ok">OK</string>
     <string name="reset">Reset</string>
