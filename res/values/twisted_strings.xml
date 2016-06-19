@@ -11,9 +11,13 @@
     <!-- Twisted Settings -->
     <string name="twisted_settings_title">Twisted Tweaks</string>
     <string name="twisted_display">Twisted Display Settings</string>
+    <string name="twisted_power">Buttons</string>
 
     <!-- Display fragment -->
-    <string name="twisted_settings_title">Display</string>
+    <string name="twisted_settings_title">Display Options</string>
+
+    <!-- Power Menu fragment -->
+    <string name="powermenu_settings_title">PowerMenu Options</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>

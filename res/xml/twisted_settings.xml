@@ -30,6 +30,18 @@ android:title="@string/twisted_settings_title" >
             android:title="@string/twisted_settings_title"/>
 
     </PreferenceCategory>
+
+    <PreferenceCategory
+        android:key="twisted_buttons"
+        android:title="@string/twisted_buttons">
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.twisted.PowerMenuSettings"
+            android:key="twisted_powermenu_settings"
+            android:title="@string/powermenu_settings_title"/>
+
+    </PreferenceCategory>
+
         <PreferenceScreen
                 android:key="expanded_desktop"
                 android:title="@string/power_menu_expanded_desktop"
