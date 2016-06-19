@@ -20,6 +20,16 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
 android:title="@string/twisted_settings_title" >
 
+    <PreferenceCategory
+        android:key="twisted_display"
+        android:title="@string/twisted_display">
+
+        <PreferenceScreen
+            android:fragment="com.android.settings.twisted.TwistedDisplay"
+            android:key="twisted_display_settings"
+            android:title="@string/twisted_settings_title"/>
+
+    </PreferenceCategory>
         <PreferenceScreen
                 android:key="expanded_desktop"
                 android:title="@string/power_menu_expanded_desktop"

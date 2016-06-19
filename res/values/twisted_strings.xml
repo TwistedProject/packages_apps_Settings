@@ -8,8 +8,12 @@
     <string name="twisted_version_default">Unknown</string>
 
     <!-- DASHBOARD CATEGORY TITLES - START -->				
-<!-- Twisted Settings -->
-<string name="twisted_settings_title">Twisted Tweaks</string>
+    <!-- Twisted Settings -->
+    <string name="twisted_settings_title">Twisted Tweaks</string>
+    <string name="twisted_display">Twisted Display Settings</string>
+
+    <!-- Display fragment -->
+    <string name="twisted_settings_title">Display</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
