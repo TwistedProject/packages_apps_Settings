@@ -53,11 +53,16 @@ android:title="@string/twisted_settings_title" >
 
     </PreferenceCategory>
 
+    <PreferenceCategory
+        android:key="twisted_recents"
+        android:title="@string/twisted_recents">
+
         <PreferenceScreen
-                android:key="power_menu_general_category"
-                android:fragment="com.android.settings.chroma.PowerMenuActions"
-                android:title="@string/power_menu_title" 
-                android:summary="Click to change power button options."/>
+            android:fragment="com.android.settings.twisted.RecentSettings"
+            android:key="twisted_recent_settings"
+            android:title="@string/recent_settings_title"/>
+
+    </PreferenceCategory>
 
         <PreferenceScreen
                 android:fragment="com.android.settings.twisted.NavBarSettings"

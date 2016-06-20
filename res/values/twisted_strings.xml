@@ -6,22 +6,17 @@
     <string name="build_date_default">2015-01-01-0000</string>
     <string name="twisted_version_title">Twisted version</string>
     <string name="twisted_version_default">Unknown</string>
-
-    <!-- DASHBOARD CATEGORY TITLES - START -->				
+			
     <!-- Twisted Settings -->
     <string name="twisted_settings_title">Twisted Tweaks</string>
     <string name="twisted_display">Twisted Display Settings</string>
     <string name="twisted_power">Twisted Power Button Settings</string>
     <string name="twisted_volume">Twisted Volume Button Settings</string>
-
-    <!-- Display fragment -->
+    <string name="twisted_recents">Twisted Recent Apps Setup</string>
     <string name="twisted_settings_title">Display Options</string>
-
-    <!-- Power Menu fragment -->
     <string name="powermenu_settings_title">PowerMenu Options</string>
-
-    <!-- Volume Rocker fragment -->
     <string name="volumerocker_settings_title">Volume rocker</string>
+    <string name="recent_settings_title">Recent apps</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
