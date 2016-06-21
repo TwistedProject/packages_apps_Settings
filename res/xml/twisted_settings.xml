@@ -65,6 +65,11 @@ android:title="@string/twisted_settings_title" >
     </PreferenceCategory>
 
         <PreferenceScreen
+            android:fragment="com.android.settings.twisted.StatusBarSettings"
+            android:key="twisted_statusbar_settings"
+            android:title="@string/statusbar_settings_title"/>
+
+        <PreferenceScreen
                 android:fragment="com.android.settings.twisted.NavBarSettings"
                 android:key="pure_navbar_settings"
                 android:title="@string/navbar_settings_title"/>
