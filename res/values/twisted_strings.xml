@@ -17,6 +17,7 @@
     <string name="powermenu_settings_title">PowerMenu Options</string>
     <string name="volumerocker_settings_title">Volume rocker</string>
     <string name="recent_settings_title">Recent apps</string>
+    <string name="statusbar_settings_title">Statusbar</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
