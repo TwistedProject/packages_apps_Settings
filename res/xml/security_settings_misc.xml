@@ -33,6 +33,15 @@
 
     </PreferenceCategory>
 
+   <PreferenceCategory
+         android:key="app_security"
+         android:title="@string/app_security_title">
+
+        <Preference android:title="@string/app_ops_settings"
+                android:fragment="com.android.settings.applications.AppOpsSummary"/>
+
+    </PreferenceCategory>
+
     <PreferenceCategory android:title="@string/security_passwords_title"
             android:persistent="false">
 
