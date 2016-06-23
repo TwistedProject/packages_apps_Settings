@@ -29,5 +29,11 @@
                 android:title="@string/swap_volume_buttons_title"
                 android:summary="@string/swap_volume_buttons_summary"
                 android:defaultValue = "true" />
-                
+
+    <PreferenceScreen
+        android:fragment="com.android.settings.twisted.VolumeStepsSettings"
+        android:key="vol_steps"
+        android:title="@string/volume_steps_title"
+        android:summary="@string/volume_steps_summary" />
+
 </PreferenceScreen> 
