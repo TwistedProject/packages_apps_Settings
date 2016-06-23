@@ -17,6 +17,7 @@
     <string name="volumerocker_settings_title">Volume rocker</string>
     <string name="recent_settings_title">Recent apps</string>
     <string name="statusbar_settings_title">Statusbar</string>
+    <string name="app_security_title">Privacy</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
