@@ -20,21 +20,11 @@ xmlns:android="http://schemas.android.com/apk/res/android"
 xmlns:settings="http://schemas.android.com/apk/res/com.android.settings"
 android:title="@string/twisted_settings_title" >
 
-    <PreferenceCategory
-        android:key="twisted_display"
-        android:title="@string/twisted_display">
-
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.TwistedDisplay"
             android:key="twisted_display_settings"
             android:title="@string/twisted_display_settings"
             android:summary="Click to change display options."/>
-
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="twisted_power"
-        android:title="@string/twisted_power">
 
     <PreferenceScreen
         android:key="power_menu_general_category"
@@ -42,31 +32,17 @@ android:title="@string/twisted_settings_title" >
         android:title="@string/power_menu_title" 
         android:summary="Click to change power button options."/>
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="twisted_volume"
-        android:title="@string/twisted_volume">
-
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.VolumeRockerSettings"
             android:key="twisted_volumerocker_settings"
             android:title="@string/volumerocker_settings_title"
             android:summary="Click to change volume button options."/>
 
-    </PreferenceCategory>
-
-    <PreferenceCategory
-        android:key="twisted_recents"
-        android:title="@string/twisted_recents">
-
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.RecentSettings"
             android:key="twisted_recent_settings"
             android:title="@string/recent_settings_title"
             android:summary="Click to change recent app options."/>
-
-    </PreferenceCategory>
 
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.StatusBarSettings"
