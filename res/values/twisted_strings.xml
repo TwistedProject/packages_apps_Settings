@@ -9,15 +9,12 @@
 			
     <!-- Twisted Settings -->
     <string name="twisted_settings_title">Twisted Tweaks</string>
-    <string name="twisted_display">Twisted Display Settings</string>
-    <string name="twisted_power">Twisted Power Button Settings</string>
-    <string name="twisted_volume">Twisted Volume Button Settings</string>
-    <string name="twisted_recents">Twisted Recent Apps Setup</string>
     <string name="twisted_display_settings">Display Options</string>
     <string name="volumerocker_settings_title">Volume rocker</string>
     <string name="recent_settings_title">Recent apps</string>
     <string name="statusbar_settings_title">Statusbar</string>
     <string name="app_security_title">Privacy</string>
+    <string name="transparency_title">Transparency</string>
 
     <!-- General strings -->
     <string name="ok">OK</string>
@@ -442,5 +439,10 @@
     <string name="volume_steps_voice_call_title">Volume steps: Voice Call</string>
     <string name="volume_steps_reset">Reset</string>
 
+    <!--transparency -->
+    <string name="qs_transparent_shade">QS shade transparency</string>
+    <string name="qs_transparent_header">QS header transparency</string>
+    <string name="volume_dialog_transparency">Volume dialog transparency</string>
+    
 </resources>
 
