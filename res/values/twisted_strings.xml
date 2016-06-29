@@ -593,5 +593,8 @@
     <string name="app_ops_labels_toggle_nfc">Toggle NFC</string>
     <string name="app_ops_labels_toggle_mobile_data">Toggle cellular data</string>
 
+    <!-- Volume key controls ring stream -->
+    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
+    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
 </resources>
 
