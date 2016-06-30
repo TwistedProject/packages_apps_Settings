@@ -13,8 +13,7 @@
     <string name="twisted_power">Twisted Power Button Settings</string>
     <string name="twisted_volume">Twisted Volume Button Settings</string>
     <string name="twisted_recents">Twisted Recent Apps Setup</string>
-    <string name="twisted_settings_title">Display Options</string>
-    <string name="powermenu_settings_title">PowerMenu Options</string>
+    <string name="twisted_display_settings">Display Options</string>
     <string name="volumerocker_settings_title">Volume rocker</string>
     <string name="recent_settings_title">Recent apps</string>
     <string name="statusbar_settings_title">Statusbar</string>
@@ -331,8 +330,7 @@
    <string name="usb_data_auto_unlock_warning_summary">Your device will establish unprotected connections, everytime you connect it to a PC. Secured lockscreens disable this option automatically.\n\nThis is still an experimental feature, use with caution.</string>
     
   <!-- powermenu fragment -->
-    <string name="power_menu_title">Power menu</string>
-    <string name="power_menu_power_title">Power off</string>
+    <string name="power_menu_title">Power Menu Options</string>
     <string name="power_menu_reboot_title">Reboot menu</string>
     <string name="power_menu_screenshot_title">Screenshot</string>
     <string name="power_menu_screenrecord_title">Screen record</string>

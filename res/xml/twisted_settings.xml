@@ -27,7 +27,8 @@ android:title="@string/twisted_settings_title" >
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.TwistedDisplay"
             android:key="twisted_display_settings"
-            android:title="@string/twisted_settings_title"/>
+            android:title="@string/twisted_display_settings"
+            android:summary="Click to change display options."/>
 
     </PreferenceCategory>
 
@@ -35,10 +36,11 @@ android:title="@string/twisted_settings_title" >
         android:key="twisted_power"
         android:title="@string/twisted_power">
 
-        <PreferenceScreen
-            android:fragment="com.android.settings.twisted.PowerMenuSettings"
-            android:key="twisted_powermenu_settings"
-            android:title="@string/powermenu_settings_title"/>
+    <PreferenceScreen
+        android:key="power_menu_general_category"
+        android:fragment="com.android.settings.chroma.PowerMenuActions"
+        android:title="@string/power_menu_title" 
+        android:summary="Click to change power button options."/>
 
     </PreferenceCategory>
 
@@ -49,7 +51,8 @@ android:title="@string/twisted_settings_title" >
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.VolumeRockerSettings"
             android:key="twisted_volumerocker_settings"
-            android:title="@string/volumerocker_settings_title"/>
+            android:title="@string/volumerocker_settings_title"
+            android:summary="Click to change volume button options."/>
 
     </PreferenceCategory>
 
@@ -60,19 +63,22 @@ android:title="@string/twisted_settings_title" >
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.RecentSettings"
             android:key="twisted_recent_settings"
-            android:title="@string/recent_settings_title"/>
+            android:title="@string/recent_settings_title"
+            android:summary="Click to change recent app options."/>
 
     </PreferenceCategory>
 
         <PreferenceScreen
             android:fragment="com.android.settings.twisted.StatusBarSettings"
             android:key="twisted_statusbar_settings"
-            android:title="@string/statusbar_settings_title"/>
+            android:title="@string/statusbar_settings_title"
+            android:summary="Click to change statusbar and notification shade options."/>
 
         <PreferenceScreen
                 android:fragment="com.android.settings.twisted.NavBarSettings"
                 android:key="pure_navbar_settings"
-                android:title="@string/navbar_settings_title"/>
+                android:title="@string/navbar_settings_title"
+                android:summary="Click to change navbar options."/>
 
 </PreferenceScreen>
 
