@@ -338,5 +338,8 @@
     <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
     <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
 
+    <!-- Force expand notifications -->
+    <string name="notification_force_expand_title">Force expanded notifications</string>
+    <string name="notification_force_expand_summary">Auto expands notifications on apps that support it</string>
 </resources>
 
