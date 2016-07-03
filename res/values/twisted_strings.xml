@@ -600,5 +600,8 @@
     <!-- Volume key controls ring stream -->
     <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
     <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+
+   <!-- App details: open play store link if app is user installed -->
+   <string name="app_play_store">Google Play</string>
 </resources>
 
