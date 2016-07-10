@@ -132,10 +132,6 @@
     <string name="changelog_crdroid_title">Changelog</string>
     <string name="changelog_crdroid_error">Unable to load changelog</string>
 
-    <!-- Twisted OTA -->
-    <string name="twisted_ota_title">Twisted OTA</string>
-    <string name="twisted_ota_summary">Click to view and download Twisted updates.</string>
-    
     <!-- app notifications hide on lockscreen -->
     <string name="app_notification_no_keyguard_title">Hide when locked</string>
     <string name="app_notification_no_keyguard_summary">Hide notifications of this app when device is locked</string>
