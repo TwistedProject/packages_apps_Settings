@@ -17,16 +17,6 @@
 <PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
         android:title="@string/about_settings">
 
-<PreferenceScreen
-android:key="system_update_settings"
-android:title="@string/twisted_ota_title"
-android:summary="@string/twisted_ota_summary" >
-<intent
-android:action="android.intent.action.MAIN"
-android:targetPackage="com.fusionjack.slimota"
-android:targetClass="com.fusionjack.slimota.MainActivity" />
-</PreferenceScreen>
-
        <!-- Changelog -->
         <PreferenceScreen android:key="changelog"
                 android:title="@string/changelog_crdroid_title"
