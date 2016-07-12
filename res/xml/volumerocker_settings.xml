@@ -35,6 +35,11 @@
                 android:summary="@string/swap_volume_buttons_summary"
                 android:defaultValue = "true" />
 
+    <com.android.settings.chroma.SystemSettingSwitchPreference
+         android:key="volume_wake_screen"
+         android:title="@string/volbtn_wake_device_title"
+         android:defaultValue="false" />
+    
     <PreferenceScreen
         android:fragment="com.android.settings.twisted.VolumeStepsSettings"
         android:key="vol_steps"
