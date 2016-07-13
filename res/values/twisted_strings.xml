@@ -595,7 +595,7 @@
 
     <!-- Volume button wake -->
      <string name="volbtn_wake_device_title">Volume button wake</string>
-     <string name="volbtn_wake_device_summary">Pressing either volume button will wake your device</string>
+     <string name="volbtn_wake_summary">Overrides Music Control</string>
  
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
