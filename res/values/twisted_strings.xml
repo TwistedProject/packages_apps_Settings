@@ -599,5 +599,12 @@
  
    <!-- App details: open play store link if app is user installed -->
    <string name="app_play_store">Google Play</string>
+
+   <!-- Application Settings -->
+   <!-- Manage applications: show substratum overlays -->
+   <string name="filter_substratum_apps">Substratum overlays</string>
+   <string name="menu_show_substratum">Show overlays</string>
+   <string name="menu_hide_substratum">Hide overlays</string>
+
 </resources>
 
