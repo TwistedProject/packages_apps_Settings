@@ -103,6 +103,8 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private static final String PACKAGE_MIME_TYPE = "application/vnd.android.package-archive";
     private static final String KEY_TRUST_AGENT = "trust_agent";
     private static final String KEY_SCREEN_PINNING = "screen_pinning_settings";
+    private static final String LOCKSCREEN_QUICK_UNLOCK_CONTROL = "quick_unlock_control";
+    
 
     // These switch preferences need special handling since they're not all stored in Settings.
     private static final String SWITCH_PREFERENCE_KEYS[] = { KEY_LOCK_AFTER_TIMEOUT,
@@ -131,6 +133,7 @@ public class SecuritySettings extends SettingsPreferenceFragment
     private SwitchPreference mToggleAppInstallation;
     private DialogInterface mWarnInstallApps;
     private SwitchPreference mPowerButtonInstantlyLocks;
+    private SwitchPreference mQuickUnlockScreen;
 
     private boolean mIsPrimary;
 
@@ -264,6 +267,15 @@ public class SecuritySettings extends SettingsPreferenceFragment
                     trustAgentPreference.getTitle()));
         }
 
+        // Quick Unlock Screen Control
+         mQuickUnlockScreen = (SwitchPreference) root
+                 .findPreference(LOCKSCREEN_QUICK_UNLOCK_CONTROL);
+         if (mQuickUnlockScreen != null) {
+             mQuickUnlockScreen.setChecked(Settings.Secure.getInt(getContentResolver(),
+                     Settings.Secure.LOCKSCREEN_QUICK_UNLOCK_CONTROL, 1) == 1);
+             mQuickUnlockScreen.setOnPreferenceChangeListener(this);
+         }
+ 
         // Append the rest of the settings
         addPreferencesFromResource(R.xml.security_settings_misc);
 
@@ -708,6 +720,10 @@ public class SecuritySettings extends SettingsPreferenceFragment
             } else {
                 setNonMarketAppsAllowed(false);
             }
+        }   else if (preference == mQuickUnlockScreen) {
+             Settings.Secure.putInt(getActivity().getApplicationContext().getContentResolver(),
+                     Settings.Secure.LOCKSCREEN_QUICK_UNLOCK_CONTROL,
+                     (Boolean) value ? 1 : 0);
         }
         return result;
     }
