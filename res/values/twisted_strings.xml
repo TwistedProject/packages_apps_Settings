@@ -610,5 +610,8 @@
    <string name="menu_show_substratum">Show overlays</string>
    <string name="menu_hide_substratum">Hide overlays</string>
 
+    <!-- Volume settings - Volume adjustment sound -->
+    <string name="volume_adjust_sounds_title">Volume adjustment sounds</string>
+
 </resources>
 
