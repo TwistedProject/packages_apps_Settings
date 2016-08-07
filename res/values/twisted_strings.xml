@@ -613,5 +613,10 @@
    <string name="menu_show_substratum">Show overlays</string>
    <string name="menu_hide_substratum">Hide overlays</string>
 
+    <!-- Show/Hide Search Bar -->
+    <string name="recents_show_searchbar">Recents panel Search bar</string>
+    <string name="recents_searchbar_summary_enabled">Search bar in recents menu is enabled</string>
+    <string name="recents_searchbar_summary_disabled">Search bar in recents menu is disabled</string>
+
 </resources>
 
