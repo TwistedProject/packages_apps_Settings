@@ -46,8 +46,13 @@ public class TwistedDisplay extends SettingsPreferenceFragment implements
     private static final String DASHBOARD_COLUMNS = "dashboard_columns";
     private static final String KEY_LCD_DENSITY = "lcd_density";
 
+    private static final String SCROLLINGCACHE_PREF = "pref_scrollingcache";
+    private static final String SCROLLINGCACHE_PERSIST_PROP = "persist.sys.scrollingcache";
+    private static final String SCROLLINGCACHE_DEFAULT = "2";
+
     private ListPreference mDashboardColumns;
     private ListPreference mLcdDensityPreference;
+    private ListPreference mScrollingCachePref;
 
     public TwistedDisplay(){}
     
@@ -100,6 +105,11 @@ public class TwistedDisplay extends SettingsPreferenceFragment implements
                getContentResolver(), Settings.System.DASHBOARD_COLUMNS, DashboardContainerView.mDashboardValue)));
            mDashboardColumns.setSummary(mDashboardColumns.getEntry());
            mDashboardColumns.setOnPreferenceChangeListener(this);
+
+        mScrollingCachePref = (ListPreference) findPreference(SCROLLINGCACHE_PREF);
+        mScrollingCachePref.setValue(SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP,
+                SystemProperties.get(SCROLLINGCACHE_PERSIST_PROP, SCROLLINGCACHE_DEFAULT)));
+        mScrollingCachePref.setOnPreferenceChangeListener(this);
         }
     }
   private int getDefaultDensity() {
@@ -189,6 +199,11 @@ public class TwistedDisplay extends SettingsPreferenceFragment implements
                     Integer.valueOf((String) objValue));
             mDashboardColumns.setValue(String.valueOf(objValue));
             mDashboardColumns.setSummary(mDashboardColumns.getEntry());
+            return true;
+        } else if (preference == mScrollingCachePref) {
+            if (objValue != null) {
+                SystemProperties.set(SCROLLINGCACHE_PERSIST_PROP, (String) objValue);
+            }
             return true;
         }
 
