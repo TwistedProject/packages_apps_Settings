@@ -95,6 +95,19 @@
                 style="?android:preferenceInformationStyle"
                 android:title="@string/build_date"
                 android:summary="@string/build_date_default" />
+                
+        <!-- GCC build info -->
+        <Preference android:key="sm_android"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/sm_android"
+                android:summary="@string/sm_android_default"
+                android:selectable="false" />
+
+        <Preference android:key="sm_flags"
+                style="?android:preferenceInformationStyle"
+                android:title="@string/sm_flags"
+                android:summary="@string/sm_flags_default"
+                android:selectable="false" />
 
         <!-- SELinux status information -->
         <Preference android:key="selinux_status"
