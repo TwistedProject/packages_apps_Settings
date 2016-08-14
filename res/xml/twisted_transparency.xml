@@ -26,6 +26,16 @@
             settings:unitsLeft=""
             settings:unitsRight=""
             android:persistent="false" />
+
+        <com.android.settings.SeekBarPreference
+            android:key="notification_alpha"
+            android:title="@string/notifications_transparency"
+            android:max="255"
+            settings:minim="0"
+            settings:unitsLeft=""
+            settings:unitsRight=""
+            android:persistent="false" />
+
 </PreferenceCategory>
 
 <PreferenceCategory

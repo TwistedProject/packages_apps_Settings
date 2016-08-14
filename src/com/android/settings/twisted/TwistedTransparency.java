@@ -21,10 +21,12 @@ public class TwistedTransparency extends SettingsPreferenceFragment
     private static final String PREF_QS_TRANSPARENT_SHADE = "qs_transparent_shade";
     private static final String PREF_QS_TRANSPARENT_HEADER = "qs_transparent_header";
     private static final String PREF_TRANSPARENT_VOLUME_DIALOG = "transparent_volume_dialog";
+    private static final String PREF_NOTIFICATION_ALPHA = "notification_alpha";
 
     private SeekBarPreference mQSShadeAlpha;
     private SeekBarPreference mQSHeaderAlpha;
     private SeekBarPreference mVolumeDialogAlpha;
+    private SeekBarPreference mNotificationsAlpha;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -49,6 +51,14 @@ public class TwistedTransparency extends SettingsPreferenceFragment
                     Settings.System.QS_TRANSPARENT_HEADER, 255);
             mQSHeaderAlpha.setValue(qSHeaderAlpha / 1);
             mQSHeaderAlpha.setOnPreferenceChangeListener(this);
+
+            // Notifications alpha
+            mNotificationsAlpha =
+                    (SeekBarPreference) prefSet.findPreference(PREF_NOTIFICATION_ALPHA);
+            int notificationsAlpha = Settings.System.getInt(getContentResolver(),
+                    Settings.System.NOTIFICATION_ALPHA, 255);
+            mNotificationsAlpha.setValue(notificationsAlpha / 1);
+            mNotificationsAlpha.setOnPreferenceChangeListener(this);
 
             // Volume dialog alpha
             mVolumeDialogAlpha =
@@ -75,6 +85,11 @@ public class TwistedTransparency extends SettingsPreferenceFragment
                 int alpha = (Integer) objValue;
                 Settings.System.putInt(getContentResolver(),
                         Settings.System.TRANSPARENT_VOLUME_DIALOG, alpha * 1);
+                return true;
+            } else if (preference == mNotificationsAlpha) {
+                int alpha = (Integer) objValue;
+                Settings.System.putInt(getContentResolver(),
+                        Settings.System.NOTIFICATION_ALPHA, alpha * 1);
                 return true;
         }
         return false;

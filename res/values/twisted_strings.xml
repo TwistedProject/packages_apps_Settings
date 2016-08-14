@@ -443,8 +443,9 @@
     <string name="qs_transparent_shade">QS shade transparency</string>
     <string name="qs_transparent_header">QS header transparency</string>
     <string name="volume_dialog_transparency">Volume dialog transparency</string>
-
-        <!-- App ops permissions -->
+    <string name="notifications_transparency">Notifications transparency</string>
+	
+    <!-- App ops permissions -->
     <string name="app_ops_permissions_allowed">Allowed</string>
     <string name="app_ops_permissions_ignored">Ignored</string>
     <string name="app_ops_permissions_always_ask">Always ask</string>
